@@ -9,7 +9,7 @@ RUN go mod download
 COPY cmd cmd
 COPY pkg pkg
 
-RUN CGO_ENABLED=0 GOOS=linux go build -o /bin/shrt-server cmd/shrt-server/main.go
+RUN CGO_ENABLED=0 GOOS=linux go build -o /bin/shrt-server cmd/server/main.go
 
 FROM alpine:3.19.1
 
