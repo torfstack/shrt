@@ -1,0 +1,7 @@
+appName: "shrt"
+namespace: "default"
+port: 8080
+
+image:
+  name: ghcr.io/torfstack/shrt
+  tag: 0.1.0
