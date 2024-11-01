@@ -16,6 +16,6 @@ FROM alpine:3.19.1
 RUN mkdir /opt/shrt
 WORKDIR /opt/shrt
 
-COPY --from=build /bin/shrt-server shrt-server
+COPY --from=builder /bin/shrt-server shrt-server
 
 CMD ["./shrt-server"]
