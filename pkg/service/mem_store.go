@@ -2,7 +2,7 @@ package service
 
 import (
 	"errors"
-	"shrt/pkg/util"
+	"github.com/torfstack/shrt/pkg/util"
 )
 
 var (

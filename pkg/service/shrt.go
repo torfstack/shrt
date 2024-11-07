@@ -3,8 +3,8 @@ package service
 import (
 	"encoding/base64"
 	"fmt"
+	"github.com/torfstack/shrt/pkg/config"
 	"golang.org/x/crypto/sha3"
-	"shrt/pkg/config"
 )
 
 type shrtService struct {

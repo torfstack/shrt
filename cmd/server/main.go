@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"shrt/pkg/config"
-	"shrt/pkg/http"
-	"shrt/pkg/service"
+	"github.com/torfstack/shrt/pkg/config"
+	"github.com/torfstack/shrt/pkg/http"
+	"github.com/torfstack/shrt/pkg/service"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package http
 
 import (
 	"github.com/labstack/echo/v4"
-	"shrt/pkg/service"
+	"github.com/torfstack/shrt/pkg/service"
 )
 
 func StartServer(s service.ShrtService) {
